@@ -2,8 +2,8 @@
 # Grab the ports from the VM info details.
 #
 
-echo ""
-echo ""
+echo " "
+echo " "
 
 # start with the HTTP port
 HTTP_PORT=`VBoxManage showvminfo $1 --details | grep "guest port = 80" | sed 's/.*host port = \([0-9]*\).*/\1/'`
@@ -25,7 +25,7 @@ do
     echo "    http://$DEPLOYMENT$HTTP_PORT"
 done
 
-echo ""
+echo " "
 
 # then show the SSH port
 SSH_PORT=`VBoxManage showvminfo $1 --details | grep "guest port = 22" | sed 's/.*host port = \([0-9]*\).*/\1/'`
@@ -41,5 +41,5 @@ echo "    vagrant ssh                     (within the vagrant directory)"
 echo "    ssh vagrant@localhost$SSH_PORT   (from anywhere)"
 echo "    ssh root@localhost$SSH_PORT      (from anywhere)"
 
-echo ""
-echo ""
+echo " "
+echo " "
