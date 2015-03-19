@@ -31,6 +31,6 @@ This will trigger the `get-ports.sh` script which will show you how the ports ar
 Modifying
 ---------
 
-The `deployments.sh` file is a simple array of vhost names. You can modify this file, or just modify the `get-ports.sh` script directly with the deployment(s) that relate to your vagrant box.
+The `deployments.sh` file is a simple array of vhost names. You can modify this file, or just modify the `get-ports.sh` script directly with the deployment(s) that relate to your vagrant box. (I keep the deployments list separated out only because it's also used by the main provisioning script.)
 
 If you do not want the SSH port info, or want to get the HTTPS forwarding details then you can just modify `get-ports.sh` to achieve this.
