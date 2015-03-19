@@ -1,7 +1,8 @@
 Vagrant port forwarding info trigger
 ====================================
 
-I find myself starting many vagrant boxes with webservers at the same time, and this helps me track which deployments are available on the particlar VM and which port was forwarded.
+If you find starting many vagrant boxes with webservers at the same time (like I do), then this vagrant trigger will can help you track which VMs use which ports.
+It also shows you what deployments are available on the particular VM.
 
 Installation
 ------------
