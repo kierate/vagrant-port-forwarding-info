@@ -38,7 +38,7 @@ Once installed the `get-ports.sh` script will be triggered after each `vagrant u
 The output will be something along these lines:
 
 ```shell
-==> default: Executing command "/path//get-ports.sh af6-2571-4353-a829-8578"...
+==> default: Executing command "/path/vagrant/get-ports.sh af6-2571-4353-a829-8578"...
 ==> default:  
 ==> default:  
 ==> default: Available deployments can be accessed on the following URLs:
