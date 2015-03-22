@@ -76,4 +76,4 @@ If you keep the `get-ports.sh` script generic (i.e. applicable to all your Vagra
   end
 ```
 
-Bear in mind that with this approach you won't have access to any config specific to an individual Vagrant box (without some exter steps e.g. passing in `#{File.dirname(__FILE__)}` as a parameter to `get-ports.sh`), and also this makes your Vagrant file less portable.
+Bear in mind that with this approach you won't have access to any config specific to an individual Vagrant box (without some extra steps e.g. passing in `#{File.dirname(__FILE__)}` as a parameter to `get-ports.sh`), and also this makes your Vagrant file less portable.
