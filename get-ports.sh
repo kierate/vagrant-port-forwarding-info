@@ -2,6 +2,11 @@
 # Grab the ports from the VM info details.
 #
 
+# check if the parameter provided is OK
+if ! VBoxManage showvminfo $1 &> /dev/null; then
+    exit
+fi
+
 echo " "
 echo " "
 
