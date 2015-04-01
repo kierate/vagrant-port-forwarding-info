@@ -42,20 +42,20 @@ The output will be something along these lines:
 ==> default:  
 ==> default:  
 ==> default: Available deployments can be accessed on the following URLs:
-==> default:     http://system1.local:8080                [  UP  ]
-==> default:     http://example.vagrant:8080              [  UP  ]
-==> default:     http://test:8080                         [  UP  ]
-==> default:     http://test2:8080                        [  UP  ]
-==> default:     http://foo.lo:8080                       [ DOWN ]
+==> default:     http://system1.local:8080               [  UP  ]
+==> default:     http://example.vagrant:8080             [  UP  ]
+==> default:     http://test:8080                        [  UP  ]
+==> default:     http://test2:8080                       [  UP  ]
+==> default:     http://foo.lo:8080                      [ DOWN ]
 ==> default:
 ==> default: Some deployments appear to not be accessible.
 ==> default: Consider adding the following lines to your /etc/hosts file:
 ==> default:     127.0.0.1    foo.lo
 ==> default:  
 ==> default: You can ssh into the machine in one of the following ways:
-==> default:     vagrant ssh                              (within the vagrant directory)
-==> default:     ssh vagrant@localhost -p 2222            (from anywhere)
-==> default:     ssh root@localhost -p 2222               (from anywhere)
+==> default:     vagrant ssh                             (within the vagrant directory)
+==> default:     ssh vagrant@localhost -p 2222           (from anywhere)
+==> default:     ssh root@localhost -p 2222              (from anywhere)
 ==> default:  
 ==> default:  
 ==> default: Command execution finished.
