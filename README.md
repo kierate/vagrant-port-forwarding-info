@@ -16,7 +16,7 @@ $ vagrant plugin install vagrant-triggers
 Once you have the plugin add the following section to your Vagrantfile:
 
 ```ruby
-  # Get the ports details at more useful places
+  # Get the port details in these cases:
   # - after "vagrant up" and "vagrant resume"
   config.trigger.after [:up, :resume] do
     run "#{File.dirname(__FILE__)}/get-ports.sh #{@machine.id}"
